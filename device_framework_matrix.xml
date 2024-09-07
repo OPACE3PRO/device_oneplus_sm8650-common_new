@@ -55,7 +55,7 @@
  <hal format="aidl" optional="true">
         <name>vendor.oplus.hardware.camera.aon</name>
         <interface>
-            <name>IAONServi1ce</name>
+            <name>IAONService</name>
             <instance>default</instance>
         </interface>
     </hal>

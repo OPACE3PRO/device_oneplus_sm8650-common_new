@@ -248,6 +248,8 @@ VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 #include hardware/oplus/sepolicy/qti/SEPolicy.mk
 
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+
 # Touch
 SOONG_CONFIG_NAMESPACES += OPLUS_LINEAGE_TOUCH_HAL
 SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL := INCLUDE_DIR

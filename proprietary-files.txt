@@ -2777,6 +2777,8 @@ odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
 odm/etc/vintf/manifest/manifest_touch_aidl.xml
 odm/lib64/vendor.oplus.hardware.touch-V1-ndk.so
 odm/lib64/vendor.oplus.hardware.touch-V2-ndk.so
+odm/lib64/liboplus-uah-client.so
+odm/lib64/vendor.oplus.hardware.urcc-V1-ndk.so
 
 # Trusted Execution Environment connector
 vendor/lib64/libGPMTEEC_vendor.so

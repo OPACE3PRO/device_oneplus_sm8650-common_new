@@ -1,0 +1,2 @@
+# Chen Custom HALs
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.oplus_OP4A89          u:object_r:hal_fingerprint_default_exec:s0

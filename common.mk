@@ -219,11 +219,14 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint-service.oplus \
+    android.hardware.biometrics.fingerprint-service.oplus_OP4A89 \
     android.hardware.biometrics.fingerprint-V3-ndk.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    $(LOCAL_PATH)/fingerprint/aidl/compatibility_matrix_chen_fod_helper.xml
 
 # Gatekeeper
 PRODUCT_PACKAGES += \

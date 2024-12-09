@@ -214,4 +214,11 @@
             <instance>oplus</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.oplus.hardware.biometrics.fingerprint</name>
+        <interface>
+            <name>IBiometricsFingerprint</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>

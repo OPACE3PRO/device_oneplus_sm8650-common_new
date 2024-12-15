@@ -1,0 +1,2 @@
+# HALs
+/odm/bin/hw/vendor\.oplus\.hardware\.biometrics\.fingerprint@2\.1-service_uff          u:object_r:hal_fingerprint_default_exec:s0

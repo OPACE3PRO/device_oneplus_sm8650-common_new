@@ -28,10 +28,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD := lz4
 
-# ANT+
-PRODUCT_PACKAGES += \
-    AntHalService-Soong
-
 # Alert slider
 PRODUCT_PACKAGES += \
     DeviceSettings \

@@ -1,0 +1,5 @@
+type oplus_displaycolor_service, service_manager_type;
+
+add_service(hal_graphics_composer_default, oplus_displaycolor_service)
+
+allow hal_graphics_composer_default oplus_displaycolor_service:service_manager { add find };

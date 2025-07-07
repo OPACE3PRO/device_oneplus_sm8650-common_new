@@ -1,2 +1,5 @@
 # Camera
 vendor.oplus.hardware.camera.aon.IAONService/default              u:object_r:vendor_hal_camera_aon_service:s0
+
+# Display
+vendor.oplus.hardware.displaycolorfeature.IDisplayColorFeature/default u:object_r:oplus_displaycolor_service:s0

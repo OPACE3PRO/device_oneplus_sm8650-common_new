@@ -98,12 +98,6 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('remote_register_buf'),
     'vendor/lib64/libcwb_qcom_aidl.so': blob_fixup()
         .add_needed('libui_shim.so'),
-    'system_ext/bin/wfdservice64': blob_fixup()
-        .add_needed('libwfdservice_shim.so'),
-    'system_ext/lib64/libwfdnative.so': blob_fixup()
-        .replace_needed('android.hidl.base@1.0.so', 'libhidlbase.so'),
-    'system_ext/lib64/libwfdservice.so': blob_fixup()
-        .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
     'vendor/bin/system_dlkm_modprobe.sh': blob_fixup()
         .regex_replace(r'.*\bzram or zsmalloc\b.*\n', '')
         .regex_replace(r'-e "zram" -e "zsmalloc"', ''),

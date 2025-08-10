@@ -15,7 +15,7 @@
 	  "branch": "15.0"
   },
   {
-    "repository": "LineageOS/android_hardware_oplus",
+    "repository": "SakuraKyuo/android_hardware_oplus",
     "target_path": "hardware/oplus",
     "branch": "lineage-22.2"
   },

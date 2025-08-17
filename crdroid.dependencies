@@ -2,7 +2,7 @@
   {
     "repository": "crdroidandroid/android_kernel_oneplus_sm8650",
     "target_path": "kernel/oneplus/sm8650",
-	  "branch": "15.0"
+	  "branch": "16.0"
   },
   {
     "repository": "crdroidandroid/android_kernel_oneplus_sm8650-devicetrees",
@@ -12,17 +12,17 @@
   {
     "repository": "crdroidandroid/android_kernel_oneplus_sm8650-modules",
     "target_path": "kernel/oneplus/sm8650-modules",
-	  "branch": "15.0"
+	  "branch": "16.0"
   },
   {
     "repository": "SakuraKyuo/android_hardware_oplus",
     "target_path": "hardware/oplus",
-    "branch": "lineage-22.2"
+    "branch": "lineage-23.0"
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_oneplus_sm8650-common",
     "target_path": "vendor/oneplus/sm8650-common",
-    "branch": "15.0",
+    "branch": "16.0",
     "remote": "crdroid-gitlab"
   }
 ]

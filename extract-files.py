@@ -27,6 +27,13 @@ namespace_imports = [
     'vendor/qcom/opensource/dataservices',
 ]
 
+def lib_fixup_all_suffixes(lib: str, partition: str, *args, **kwargs):
+    if partition == 'odm':
+        return f'{lib}_odm'
+    if partition == 'vendor':
+        return f'{lib}_vendor'
+    return lib
+
 def lib_fixup_odm_suffix(lib: str, partition: str, *args, **kwargs):
     return f'{lib}_{partition}' if partition == 'odm' else None
 
@@ -35,6 +42,9 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
 
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
+    (
+        'vendor.oplus.hardware.displaypanelfeature-V1-ndk',
+    ): lib_fixup_all_suffixes,
     (
         'com.qti.sensor.lyt808',
         'com.qualcomm.qti.dpm.api@1.0',
@@ -50,7 +60,6 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.oplus.hardware.cammidasservice-V1-ndk',
         'vendor.oplus.hardware.camera_rfi-V1-ndk',
         'vendor.oplus.hardware.displaycolorfeature-V1-ndk',
-        'vendor.oplus.hardware.displaypanelfeature-V1-ndk',
         'vendor.pixelworks.hardware.display@1.0',
         'vendor.pixelworks.hardware.display@1.1',
         'vendor.pixelworks.hardware.display@1.2',

@@ -2010,6 +2010,18 @@ vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
+# Horae
+system/lib64/libostatslog.so:system_ext/lib64/libostatslog.so
+system/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so:system_ext/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
+system_ext/bin/horae
+system_ext/etc/horae/horae.conf
+system_ext/etc/horae/horae_SM7675.conf
+system_ext/etc/horae/horae_SM8650.conf
+system_ext/etc/horae/horae_SM8650_CAIHONG.conf
+system_ext/etc/init/horae.rc
+system_ext/lib64/vendor.oplus.hardware.charger-V1-ndk.so
+system_ext/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so
+
 # Hotword Enrollment from OnePlus 12 CPH2581_15.0.0.503(EX01)More actions
 my_product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml:product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml|52b6a326e59e543daac9b8d6e960654095c0fb6b
 my_product/framework/com.android.hotwordenrollment.common.util.jar:product/framework/com.android.hotwordenrollment.common.util.jar|2f9d61fcdbc33058e8a514b4b5a559d314bbabaf
@@ -2302,7 +2314,7 @@ odm/lib64/libdisplaycolorfeature.so
 odm/lib64/libdisplayfossfeature_nature.so
 odm/lib64/libdpaservice.so
 odm/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
-odm/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so
+odm/lib64/vendor.oplus.hardware.displaypanelfeature-V1-ndk.so;MODULE_SUFFIX=_odm
 vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm
 vendor/lib64/libcwb_qcom_aidl.so
 vendor/lib64/vendor.oplus.hardware.cwb-V1-ndk.so

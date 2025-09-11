@@ -15,9 +15,6 @@ ro.oplus.system.camera.name=com.oplus.camera
 persist.bluetooth.oplus.export.nv_overwrite_region=true
 persist.vendor.bluetooth.modem_nv_support=true
 
-# Display
-persist.vendor.display.pxlw.iris_feature=0x417f0780
-
 # Radio
 persist.vendor.radio.force_on_dc=true
 persist.vendor.radio.virtualcomm=1
